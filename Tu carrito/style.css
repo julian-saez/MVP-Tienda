@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F6F6F6;
+}
+
+.wrapper {
+    margin: 0 175px;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Encode Sans', sans-serif;
+    font-weight: 500;   
+}
+
+#back-home span {
+    font-size: 15px;
+    padding-left: 10px;
+    color: #ffda48;
+}
+
+h1 {
+    font-family: 'Epilogue', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 20px;
+    padding-left: 70px;
+}
+
+h2 {
+    font-size: 18px;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: normal;
+}
+
+header {
+    padding-top: 5px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ol {
+    list-style: none;
+    display: flex;
+}
+
+ol li {
+    padding-left: 20px;
+}
+
+ol li:hover {
+    text-decoration: line-through;
+}
+
+#user {
+    display: flex;
+}
+
+#user span:nth-child(1) {
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+#title-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background-color: #FFF4C8;
+    margin-bottom: 40px;
+}
+
+#contenedor {
+    display: flex;
+}
+
+#list {
+    width: 50%;
+}
+
+.articulo-compra {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-width: 660px;
+    height: 150px;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    background-color: rgb(233, 233, 233);
+}
+
+.articulo-compra img {  
+    padding-left: 25px;
+    width: 135px;
+    max-width: 100%;
+}
+
+.articulo-compra h3 {
+    padding-left: 25px;
+    font-family: 'Encode Sans', sans-serif;
+    font-weight: 500;
+}
+
+.articulo-compra span {
+    font-size: 16px;
+    padding-left: 15px;
+    font-family: 'Encode Sans', sans-serif;
+    font-weight: bolder;
+    color: red;
+}
+
+#contenedor button {
+    color: white;
+    background-color: black;
+    font-family: 'Epilogue', sans-serif;
+    font-style: italic;
+    margin-left: 15px;
+    padding: 10px 25px;
+    border: 0;
+    float: right;
+}
+
+#info-tienda article {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 450px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: rgb(247, 247, 247);
+}
+
+#info-tienda span {
+    font-size: 20px;
+    padding-left: 25px;
+    padding-top: 5px;
+}
+
+#info-tienda p {
+    padding: 40px;
+    font-family: 'Encode Sans', sans-serif;
+    font-weight: 500;
+}
